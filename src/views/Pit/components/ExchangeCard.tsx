@@ -73,9 +73,6 @@ const ExchangeCard: React.FC<ExchangeCardProps> = ({
 							</StyledCardIcon>
 							<Label text={fromTokenName} variant="normal" color='white' />
 						</StyledToken>
-						{/* <StyledExchangeArrow>
-							<FontAwesomeIcon icon={faArrowRight} />
-						</StyledExchangeArrow> */}
 						<StyledToken>
 							<StyledCardIcon style={{ background: 'transparent' }}>
 								<TokenSymbol symbol={toToken.symbol} size={54} />
